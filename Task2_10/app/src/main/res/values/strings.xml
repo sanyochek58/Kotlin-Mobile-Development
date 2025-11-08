@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Task2_10</string>
+
+    <!-- страница логина -->
+    <string name="welcome_login">Hello, Again!</string>
+    <string name="welcome_substring">Welcome Back you\'ve been missed</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="not_account">Don\'t have an account?</string>
+
+    <!-- страница регистрации -->
+    <string name="welcome_register">Welcome</string>
+    <string name="register_account">Register an account with Us</string>
+    <string name="have_account">Already have an account?</string>
+</resources>
