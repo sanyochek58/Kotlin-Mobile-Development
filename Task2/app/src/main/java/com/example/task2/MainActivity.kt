@@ -1,6 +1,6 @@
 package com.example.task2
 
-import android.R
+import com.example.task2.R
 import android.os.Bundle
 import android.util.Log
 import androidx.activity.ComponentActivity
@@ -35,6 +35,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.example.task2.ui.theme.Task2Theme
 import kotlinx.coroutines.sync.Mutex
+
 
 class MainActivity : ComponentActivity() {
     private val TAG = "MainActivity"
@@ -101,56 +102,56 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
 
 // Задача 6
 
-//@Preview(
-//    showBackground = true,
-//    showSystemUi = true,
-//    device = "spec:parent=Galaxy Nexus, orientation=portrait"
-//)
-//@Composable
-//fun workCircle(){
-//    Task2Theme {
-//        Box(
-//            modifier = Modifier
-//                .padding(0.dp, 25.dp)
-//                .size(240.dp,120.dp)
-//                .background(Color.Black),
-//            contentAlignment = Alignment.TopEnd
-//        ){
-//            Image(
-//                modifier = Modifier,
-//                painter = painterResource(R.drawable.circle),
-//                contentDescription = "Circle"
-//            )
-//        }
-//
-//    }
-//}
-//
-//@Preview(
-//    showSystemUi = true,
-//    showBackground = true,
-//    device = "spec:parent=Galaxy Nexus, orientation=portrait"
-//)
-//@Composable
-//fun modifyWorkCircle(){
-//    Task2Theme {
-//        Box(
-//            modifier = Modifier
-//                .padding(0.dp, 25.dp)
-//                .size(240.dp,120.dp)
-//                .background(Color.Blue),
-//            contentAlignment = Alignment.Center
-//        ){
-//            Image(
-//                modifier = Modifier.width(400.dp).fillMaxSize(),
-//                contentScale = ContentScale.FillBounds,
-//                contentDescription = null,
-//                painter = painterResource(R.drawable.circle),
-//                colorFilter = ColorFilter.tint(Color(0xFF8B00FF))
-//            )
-//        }
-//    }
-//}
+@Preview(
+    showBackground = true,
+    showSystemUi = true,
+    device = "spec:parent=Galaxy Nexus, orientation=portrait"
+)
+@Composable
+fun workCircle(){
+    Task2Theme {
+        Box(
+            modifier = Modifier
+                .padding(0.dp, 25.dp)
+                .size(240.dp,120.dp)
+                .background(Color.Black),
+            contentAlignment = Alignment.TopEnd
+        ){
+            Image(
+                modifier = Modifier,
+                painter = painterResource(R.drawable.circle),
+                contentDescription = "Circle"
+            )
+        }
+
+    }
+}
+
+@Preview(
+    showSystemUi = true,
+    showBackground = true,
+    device = "spec:parent=Galaxy Nexus, orientation=portrait"
+)
+@Composable
+fun modifyWorkCircle(){
+    Task2Theme {
+        Box(
+            modifier = Modifier
+                .padding(0.dp, 25.dp)
+                .size(240.dp,120.dp)
+                .background(Color.Blue),
+            contentAlignment = Alignment.Center
+        ){
+            Image(
+                modifier = Modifier.width(400.dp).fillMaxSize(),
+                contentScale = ContentScale.FillBounds,
+                contentDescription = null,
+                painter = painterResource(R.drawable.circle),
+                colorFilter = ColorFilter.tint(Color(0xFF8B00FF))
+            )
+        }
+    }
+}
 
 @Preview(
     showBackground = true,
@@ -277,10 +278,8 @@ fun workWithColumn3() {
 
                     Image(
                         painter = painterResource(R.drawable.star_on),
-                        contentDescription = null,
-                        modifier = Modifier
-                            .size(40.dp)
-                            .padding(end = 16.dp)
+                        contentDescription = "Star",
+                        modifier = Modifier.size(40.dp).padding(end = 16.dp)
                     )
                 }
             }
