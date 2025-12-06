@@ -88,6 +88,12 @@ fun ThemeDemoScreen(modifier: Modifier = Modifier) {
             ) {
                 Text(text = "Нажать", color = onErrorContainerLight)
             }
+            Button(
+                onClick = { /* TODO: что-нибудь сделать */ },
+                shape = MaterialTheme.shapes.small
+            ) {
+                Text(text = "Кнопка в новой теме")
+            }
         }
     }
 }
