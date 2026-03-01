@@ -1,0 +1,17 @@
+[
+  {
+   "city": "Moscow",
+    "temp": -18,
+    "condition": "snow"
+  },
+  {
+    "city": "New York",
+    "temp": -5,
+    "condition": "cloudy"
+  },
+  {
+    "city": "Tokyo",
+    "temp": 11,
+    "condition": "rain"
+  }
+]

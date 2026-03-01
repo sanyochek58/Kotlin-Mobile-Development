@@ -1,0 +1,15 @@
+{
+  "today":"2025-12-01",
+  "items": [
+    {
+      "product": "Coffee",
+      "qty": 42,
+      "revenue": 1680
+    },
+    {
+      "product": "Tea",
+      "qty": 19,
+      "revenue": 475
+    }
+  ]
+}
