@@ -107,4 +107,5 @@ fun main() {
             }
         }
     }
+    System.out.println("Общее время работы: ${time} ms")
 }
