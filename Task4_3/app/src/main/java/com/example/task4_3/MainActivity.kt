@@ -71,30 +71,30 @@ fun CoroutineScope.debounce(waitMS: Long = 500L, action: suspend(String) -> Unit
             }}
 }
 
-suspend fun searchRepos(jsonText: String, query: String) : List<GitHubRepo> = withContext(
-    Dispatchers.Default){
-    if(query.isBlank()){
-        return@withContext emptyList()
+fun searchRepos(jsonText: String, query: String) : List<GitHubRepo> {
+    if (query.isBlank()) {
+        return emptyList()
     }
 
     val array = JSONArray(jsonText)
-    buildList {
-        for (i in 1 .. array.length() - 1){
+    return buildList {
+        for (i in 1..array.length() - 1) {
             val obj = array.getJSONObject(i)
             val fullName = obj.optString("full_name")
             val description = obj.optString("description")
             val language = obj.optString("language")
 
-            if (fullName.contains(query, ignoreCase = true)
-                || description.contains(query, ignoreCase = true)
-                || language.contains(query, ignoreCase = true)){
-                add(GitHubRepo(
-                    id = obj.optLong("id"),
-                    fullName = fullName,
-                    description = description,
-                    stargazersCount = obj.optInt("stargazers_count"),
-                    language = language
-                ))
+            if (fullName.contains(query, ignoreCase = true) || description.contains(query, ignoreCase = true) || language.contains(query, ignoreCase = true)
+            ) {
+                add(
+                    GitHubRepo(
+                        id = obj.optLong("id"),
+                        fullName = fullName,
+                        description = description,
+                        stargazersCount = obj.optInt("stargazers_count"),
+                        language = language
+                    )
+                )
             }
         }
     }
