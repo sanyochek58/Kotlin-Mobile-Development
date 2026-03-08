@@ -1,0 +1,702 @@
+[
+  {
+    "id": 1,
+    "full_name": "JetBrains/kotlin",
+    "description": "The Kotlin Programming Language.",
+    "stargazers_count": 48200,
+    "language": "Kotlin"
+  },
+  {
+    "id": 2,
+    "full_name": "android/architecture-samples",
+    "description": "A collection of samples to discuss and showcase different architectural tools and patterns for Android apps.",
+    "stargazers_count": 44100,
+    "language": "Kotlin"
+  },
+  {
+    "id": 3,
+    "full_name": "square/retrofit",
+    "description": "A type-safe HTTP client for Android and the JVM.",
+    "stargazers_count": 42500,
+    "language": "Java"
+  },
+  {
+    "id": 4,
+    "full_name": "bumptech/glide",
+    "description": "An image loading and caching library for Android focused on smooth scrolling.",
+    "stargazers_count": 34100,
+    "language": "Java"
+  },
+  {
+    "id": 5,
+    "full_name": "square/okhttp",
+    "description": "Square's meticulous HTTP client for the JVM, Android, and GraalVM.",
+    "stargazers_count": 45200,
+    "language": "Kotlin"
+  },
+  {
+    "id": 6,
+    "full_name": "google/gson",
+    "description": "A Java serialization/deserialization library to convert Java Objects into JSON and back.",
+    "stargazers_count": 23000,
+    "language": "Java"
+  },
+  {
+    "id": 7,
+    "full_name": "ReactiveX/RxJava",
+    "description": "RxJava – Reactive Extensions for the JVM.",
+    "stargazers_count": 47600,
+    "language": "Java"
+  },
+  {
+    "id": 8,
+    "full_name": "JakeWharton/timber",
+    "description": "A logger with a small, extensible API which provides utility on top of Android's normal Log class.",
+    "stargazers_count": 10200,
+    "language": "Kotlin"
+  },
+  {
+    "id": 9,
+    "full_name": "coil-kt/coil",
+    "description": "Image loading for Android and Compose Multiplatform, backed by Kotlin Coroutines.",
+    "stargazers_count": 10500,
+    "language": "Kotlin"
+  },
+  {
+    "id": 10,
+    "full_name": "InsertKoinIO/koin",
+    "description": "Koin - a pragmatic lightweight dependency injection framework for Kotlin & Kotlin Multiplatform.",
+    "stargazers_count": 9200,
+    "language": "Kotlin"
+  },
+  {
+    "id": 11,
+    "full_name": "airbnb/lottie-android",
+    "description": "Render After Effects animations natively on Android and iOS, Web, and React Native.",
+    "stargazers_count": 35000,
+    "language": "Kotlin"
+  },
+  {
+    "id": 12,
+    "full_name": "google/dagger",
+    "description": "A fast dependency injector for Android and Java.",
+    "stargazers_count": 17200,
+    "language": "Java"
+  },
+  {
+    "id": 13,
+    "full_name": "square/leakcanary",
+    "description": "A memory leak detection library for Android.",
+    "stargazers_count": 28900,
+    "language": "Kotlin"
+  },
+  {
+    "id": 14,
+    "full_name": "material-components/material-components-android",
+    "description": "Modular and customizable Material Design UI components for Android.",
+    "stargazers_count": 16400,
+    "language": "Java"
+  },
+  {
+    "id": 15,
+    "full_name": "robolectric/robolectric",
+    "description": "Android Unit Testing Framework.",
+    "stargazers_count": 5800,
+    "language": "Java"
+  },
+  {
+    "id": 16,
+    "full_name": "mockito/mockito",
+    "description": "Most popular Mocking framework for unit tests written in Java.",
+    "stargazers_count": 14600,
+    "language": "Java"
+  },
+  {
+    "id": 17,
+    "full_name": "ktorio/ktor",
+    "description": "Framework for quickly creating connected applications in Kotlin with minimal effort.",
+    "stargazers_count": 12900,
+    "language": "Kotlin"
+  },
+  {
+    "id": 18,
+    "full_name": "square/moshi",
+    "description": "A modern JSON library for Kotlin and Java.",
+    "stargazers_count": 9500,
+    "language": "Kotlin"
+  },
+  {
+    "id": 19,
+    "full_name": "firebase/firebase-android-sdk",
+    "description": "Firebase Android SDK.",
+    "stargazers_count": 2100,
+    "language": "Java"
+  },
+  {
+    "id": 20,
+    "full_name": "google/ExoPlayer",
+    "description": "An extensible media player for Android.",
+    "stargazers_count": 21600,
+    "language": "Java"
+  },
+  {
+    "id": 21,
+    "full_name": "facebook/react-native",
+    "description": "A framework for building native applications using React.",
+    "stargazers_count": 118000,
+    "language": "JavaScript"
+  },
+  {
+    "id": 22,
+    "full_name": "flutter/flutter",
+    "description": "Flutter makes it easy and fast to build beautiful apps for mobile and beyond.",
+    "stargazers_count": 165000,
+    "language": "Dart"
+  },
+  {
+    "id": 23,
+    "full_name": "google/accompanist",
+    "description": "A collection of extension libraries for Jetpack Compose.",
+    "stargazers_count": 7400,
+    "language": "Kotlin"
+  },
+  {
+    "id": 24,
+    "full_name": "Kotlin/kotlinx.coroutines",
+    "description": "Library support for Kotlin coroutines.",
+    "stargazers_count": 12800,
+    "language": "Kotlin"
+  },
+  {
+    "id": 25,
+    "full_name": "Kotlin/kotlinx.serialization",
+    "description": "Kotlin multiplatform / multi-format serialization.",
+    "stargazers_count": 5300,
+    "language": "Kotlin"
+  },
+  {
+    "id": 26,
+    "full_name": "cashapp/sqldelight",
+    "description": "SQLDelight - Generates typesafe Kotlin APIs from SQL.",
+    "stargazers_count": 6000,
+    "language": "Kotlin"
+  },
+  {
+    "id": 27,
+    "full_name": "airbnb/epoxy",
+    "description": "Epoxy is an Android library for building complex screens in a RecyclerView.",
+    "stargazers_count": 8400,
+    "language": "Kotlin"
+  },
+  {
+    "id": 28,
+    "full_name": "JakeWharton/picasso",
+    "description": "A powerful image downloading and caching library for Android.",
+    "stargazers_count": 18600,
+    "language": "Java"
+  },
+  {
+    "id": 29,
+    "full_name": "greenrobot/EventBus",
+    "description": "EventBus is a publish/subscribe event bus for Android and Java.",
+    "stargazers_count": 24400,
+    "language": "Java"
+  },
+  {
+    "id": 30,
+    "full_name": "chrisbanes/PhotoView",
+    "description": "Implementation of ImageView for Android that supports zooming, by various touch gestures.",
+    "stargazers_count": 18400,
+    "language": "Java"
+  },
+  {
+    "id": 31,
+    "full_name": "nostra13/Android-Universal-Image-Loader",
+    "description": "Powerful and flexible library for loading, caching and displaying images on Android.",
+    "stargazers_count": 16800,
+    "language": "Java"
+  },
+  {
+    "id": 32,
+    "full_name": "facebook/fresco",
+    "description": "An Android library for managing images and the memory they use.",
+    "stargazers_count": 17000,
+    "language": "Java"
+  },
+  {
+    "id": 33,
+    "full_name": "PhilJay/MPAndroidChart",
+    "description": "A powerful & easy to use chart library for Android.",
+    "stargazers_count": 37300,
+    "language": "Java"
+  },
+  {
+    "id": 34,
+    "full_name": "google/guava",
+    "description": "Google core libraries for Java.",
+    "stargazers_count": 50100,
+    "language": "Java"
+  },
+  {
+    "id": 35,
+    "full_name": "Kotlin/dokka",
+    "description": "API documentation engine for Kotlin.",
+    "stargazers_count": 3300,
+    "language": "Kotlin"
+  },
+  {
+    "id": 36,
+    "full_name": "arrow-kt/arrow",
+    "description": "Functional companion to Kotlin's Standard Library.",
+    "stargazers_count": 6300,
+    "language": "Kotlin"
+  },
+  {
+    "id": 37,
+    "full_name": "pinterest/ktlint",
+    "description": "An anti-bikeshedding Kotlin linter with built-in formatter.",
+    "stargazers_count": 6100,
+    "language": "Kotlin"
+  },
+  {
+    "id": 38,
+    "full_name": "detekt/detekt",
+    "description": "Static code analysis for Kotlin.",
+    "stargazers_count": 6200,
+    "language": "Kotlin"
+  },
+  {
+    "id": 39,
+    "full_name": "gradle/gradle",
+    "description": "Adaptable, fast automation for all.",
+    "stargazers_count": 16700,
+    "language": "Java"
+  },
+  {
+    "id": 40,
+    "full_name": "JetBrains/compose-multiplatform",
+    "description": "Compose Multiplatform, a modern UI framework for Kotlin.",
+    "stargazers_count": 15700,
+    "language": "Kotlin"
+  },
+  {
+    "id": 41,
+    "full_name": "square/wire",
+    "description": "gRPC and protocol buffers for Android, Kotlin, and Java.",
+    "stargazers_count": 4100,
+    "language": "Kotlin"
+  },
+  {
+    "id": 42,
+    "full_name": "airbnb/paris",
+    "description": "Define and apply styles to Android views programmatically.",
+    "stargazers_count": 1900,
+    "language": "Kotlin"
+  },
+  {
+    "id": 43,
+    "full_name": "uber/RIBs",
+    "description": "Uber's cross-platform mobile architecture framework.",
+    "stargazers_count": 7300,
+    "language": "Kotlin"
+  },
+  {
+    "id": 44,
+    "full_name": "Kotlin/kotlin-script-examples",
+    "description": "Examples of Kotlin scripts and custom script definitions.",
+    "stargazers_count": 680,
+    "language": "Kotlin"
+  },
+  {
+    "id": 45,
+    "full_name": "google/ksp",
+    "description": "Kotlin Symbol Processing API.",
+    "stargazers_count": 2900,
+    "language": "Kotlin"
+  },
+  {
+    "id": 46,
+    "full_name": "cashapp/turbine",
+    "description": "A small testing library for kotlinx.coroutines Flow.",
+    "stargazers_count": 2400,
+    "language": "Kotlin"
+  },
+  {
+    "id": 47,
+    "full_name": "mockk/mockk",
+    "description": "MockK - mocking library for Kotlin.",
+    "stargazers_count": 5500,
+    "language": "Kotlin"
+  },
+  {
+    "id": 48,
+    "full_name": "google/truth",
+    "description": "Fluent assertions for Java and Android.",
+    "stargazers_count": 3400,
+    "language": "Java"
+  },
+  {
+    "id": 49,
+    "full_name": "junit-team/junit5",
+    "description": "The 5th major version of the programmer-friendly testing framework for Java and the JVM.",
+    "stargazers_count": 6400,
+    "language": "Java"
+  },
+  {
+    "id": 50,
+    "full_name": "kotest/kotest",
+    "description": "Powerful, elegant and flexible test framework for Kotlin with assertions, property testing and data driven tests.",
+    "stargazers_count": 4300,
+    "language": "Kotlin"
+  },
+  {
+    "id": 51,
+    "full_name": "google/accompanist-navigation-animation",
+    "description": "Animated navigation for Jetpack Compose.",
+    "stargazers_count": 1100,
+    "language": "Kotlin"
+  },
+  {
+    "id": 52,
+    "full_name": "Kotlin/kotlinx-datetime",
+    "description": "A multiplatform Kotlin library for working with date and time.",
+    "stargazers_count": 2100,
+    "language": "Kotlin"
+  },
+  {
+    "id": 53,
+    "full_name": "mikepenz/MaterialDrawer",
+    "description": "The flexible, easy to use, all in one drawer library for your Android project.",
+    "stargazers_count": 11600,
+    "language": "Kotlin"
+  },
+  {
+    "id": 54,
+    "full_name": "tbruyelle/RxPermissions",
+    "description": "Android runtime permissions powered by RxJava2.",
+    "stargazers_count": 10400,
+    "language": "Java"
+  },
+  {
+    "id": 55,
+    "full_name": "trello/RxLifecycle",
+    "description": "Lifecycle handling APIs for Android apps using RxJava.",
+    "stargazers_count": 7500,
+    "language": "Java"
+  },
+  {
+    "id": 56,
+    "full_name": "ReactiveX/RxAndroid",
+    "description": "RxJava bindings for Android.",
+    "stargazers_count": 19900,
+    "language": "Java"
+  },
+  {
+    "id": 57,
+    "full_name": "google/wire",
+    "description": "Compile-time Dependency Injection for Go.",
+    "stargazers_count": 13000,
+    "language": "Go"
+  },
+  {
+    "id": 58,
+    "full_name": "square/javapoet",
+    "description": "A Java API for generating .java source files.",
+    "stargazers_count": 10600,
+    "language": "Java"
+  },
+  {
+    "id": 59,
+    "full_name": "square/kotlinpoet",
+    "description": "A Kotlin and Java API for generating .kt source files.",
+    "stargazers_count": 4400,
+    "language": "Kotlin"
+  },
+  {
+    "id": 60,
+    "full_name": "Kotlin/kotlin-playground",
+    "description": "Self-contained component to embed in websites for running Kotlin code.",
+    "stargazers_count": 960,
+    "language": "Kotlin"
+  },
+  {
+    "id": 61,
+    "full_name": "android/sunflower",
+    "description": "A gardening app illustrating Android development best practices with migrating a View-based app to Jetpack Compose.",
+    "stargazers_count": 17900,
+    "language": "Kotlin"
+  },
+  {
+    "id": 62,
+    "full_name": "android/nowinandroid",
+    "description": "A fully functional Android app built entirely with Kotlin and Jetpack Compose.",
+    "stargazers_count": 17600,
+    "language": "Kotlin"
+  },
+  {
+    "id": 63,
+    "full_name": "android/compose-samples",
+    "description": "Official Jetpack Compose samples.",
+    "stargazers_count": 20000,
+    "language": "Kotlin"
+  },
+  {
+    "id": 64,
+    "full_name": "skydoves/Pokedex",
+    "description": "Android Pokedex using Hilt, Motion, Coroutines, Flow, Jetpack with MVVM architecture.",
+    "stargazers_count": 7600,
+    "language": "Kotlin"
+  },
+  {
+    "id": 65,
+    "full_name": "skydoves/MovieCompose",
+    "description": "An Android Movie application using Jetpack Compose and Hilt based on MVVM architecture.",
+    "stargazers_count": 1900,
+    "language": "Kotlin"
+  },
+  {
+    "id": 66,
+    "full_name": "MindorksOpenSource/android-mvvm-architecture",
+    "description": "This repository contains a detailed sample app that implements MVVM architecture using Dagger2, Room, RxJava2, FastAndroidNetworking and PlaceholderView.",
+    "stargazers_count": 5200,
+    "language": "Kotlin"
+  },
+  {
+    "id": 67,
+    "full_name": "igorwojda/android-ecosystem-cheat-sheet",
+    "description": "Android Ecosystem Cheat Sheet for 2022.",
+    "stargazers_count": 2900,
+    "language": "Kotlin"
+  },
+  {
+    "id": 68,
+    "full_name": "android/camera-samples",
+    "description": "Multiple samples showing the best practices in camera APIs on Android.",
+    "stargazers_count": 4900,
+    "language": "Kotlin"
+  },
+  {
+    "id": 69,
+    "full_name": "Kotlin/kotlin-frontend-plugin",
+    "description": "Gradle Kotlin (multiplatform) frontend plugin.",
+    "stargazers_count": 560,
+    "language": "Kotlin"
+  },
+  {
+    "id": 70,
+    "full_name": "google/android-jetpack-playground",
+    "description": "Pet projects to have some fun with Jetpack Compose.",
+    "stargazers_count": 760,
+    "language": "Kotlin"
+  },
+  {
+    "id": 71,
+    "full_name": "mozilla-mobile/firefox-android",
+    "description": "Firefox for Android (Fenix), Firefox Focus for Android & Android Components.",
+    "stargazers_count": 2200,
+    "language": "Kotlin"
+  },
+  {
+    "id": 72,
+    "full_name": "signalapp/Signal-Android",
+    "description": "A private messenger for Android.",
+    "stargazers_count": 25200,
+    "language": "Kotlin"
+  },
+  {
+    "id": 73,
+    "full_name": "duckduckgo/Android",
+    "description": "DuckDuckGo Android App.",
+    "stargazers_count": 4200,
+    "language": "Kotlin"
+  },
+  {
+    "id": 74,
+    "full_name": "vector-im/element-android",
+    "description": "A glossy Matrix collaboration client for Android.",
+    "stargazers_count": 3200,
+    "language": "Kotlin"
+  },
+  {
+    "id": 75,
+    "full_name": "nextcloud/android",
+    "description": "Nextcloud Android app.",
+    "stargazers_count": 4000,
+    "language": "Java"
+  },
+  {
+    "id": 76,
+    "full_name": "k9mail/k-9",
+    "description": "K-9 Mail – Open Source Email App for Android.",
+    "stargazers_count": 9000,
+    "language": "Kotlin"
+  },
+  {
+    "id": 77,
+    "full_name": "andOTP/andOTP",
+    "description": "Open source two-factor authentication for Android.",
+    "stargazers_count": 4200,
+    "language": "Java"
+  },
+  {
+    "id": 78,
+    "full_name": "termux/termux-app",
+    "description": "Termux - a terminal emulator application for Android OS extendible by variety of packages.",
+    "stargazers_count": 34000,
+    "language": "Java"
+  },
+  {
+    "id": 79,
+    "full_name": "open-keychain/open-keychain",
+    "description": "OpenKeychain is an OpenPGP implementation for Android.",
+    "stargazers_count": 2600,
+    "language": "Java"
+  },
+  {
+    "id": 80,
+    "full_name": "TeamNewPipe/NewPipe",
+    "description": "A libre lightweight streaming front-end for Android.",
+    "stargazers_count": 32000,
+    "language": "Java"
+  },
+  {
+    "id": 81,
+    "full_name": "yairm210/Unciv",
+    "description": "Open-source Android/Desktop remake of Civ V.",
+    "stargazers_count": 8500,
+    "language": "Kotlin"
+  },
+  {
+    "id": 82,
+    "full_name": "AnySoftKeyboard/AnySoftKeyboard",
+    "description": "Android on-screen keyboard for multiple languages.",
+    "stargazers_count": 2500,
+    "language": "Java"
+  },
+  {
+    "id": 83,
+    "full_name": "orgzly/orgzly-android",
+    "description": "Outliner for taking notes and managing to-do lists.",
+    "stargazers_count": 2700,
+    "language": "Kotlin"
+  },
+  {
+    "id": 84,
+    "full_name": "wikimedia/apps-android-wikipedia",
+    "description": "The official Wikipedia app for Android.",
+    "stargazers_count": 3000,
+    "language": "Kotlin"
+  },
+  {
+    "id": 85,
+    "full_name": "mozilla-mobile/fenix",
+    "description": "Firefox for Android.",
+    "stargazers_count": 7200,
+    "language": "Kotlin"
+  },
+  {
+    "id": 86,
+    "full_name": "google/iosched",
+    "description": "The Google I/O Android App.",
+    "stargazers_count": 21700,
+    "language": "Kotlin"
+  },
+  {
+    "id": 87,
+    "full_name": "afollestad/material-dialogs",
+    "description": "A beautiful, fluid, and extensible dialogs API for Kotlin and Android.",
+    "stargazers_count": 19500,
+    "language": "Kotlin"
+  },
+  {
+    "id": 88,
+    "full_name": "permissions-dispatcher/PermissionsDispatcher",
+    "description": "A declarative API to handle Android runtime permissions.",
+    "stargazers_count": 11200,
+    "language": "Kotlin"
+  },
+  {
+    "id": 89,
+    "full_name": "Kotlin/kotlin-koans",
+    "description": "Kotlin workshop.",
+    "stargazers_count": 2500,
+    "language": "Kotlin"
+  },
+  {
+    "id": 90,
+    "full_name": "JetBrains/intellij-community",
+    "description": "IntelliJ IDEA Community Edition & IntelliJ Platform.",
+    "stargazers_count": 17400,
+    "language": "Java"
+  },
+  {
+    "id": 91,
+    "full_name": "JetBrains/kotlin-web-site",
+    "description": "Kotlin Programming Language Website.",
+    "stargazers_count": 730,
+    "language": "Kotlin"
+  },
+  {
+    "id": 92,
+    "full_name": "realm/realm-kotlin",
+    "description": "Realm is a mobile database: a replacement for SQLite & ORMs.",
+    "stargazers_count": 1900,
+    "language": "Kotlin"
+  },
+  {
+    "id": 93,
+    "full_name": "cashapp/molecule",
+    "description": "Build a StateFlow or Flow stream using Jetpack Compose.",
+    "stargazers_count": 1700,
+    "language": "Kotlin"
+  },
+  {
+    "id": 94,
+    "full_name": "JakeWharton/ProcessPhoenix",
+    "description": "Process Phoenix facilitates restarting your application process.",
+    "stargazers_count": 1200,
+    "language": "Java"
+  },
+  {
+    "id": 95,
+    "full_name": "wasabeef/recyclerview-animators",
+    "description": "An Android Animation library which easily add itemanimator to RecyclerView items.",
+    "stargazers_count": 11700,
+    "language": "Kotlin"
+  },
+  {
+    "id": 96,
+    "full_name": "mikepenz/FastAdapter",
+    "description": "The bullet proof, fast and easy to use adapter library, which minimizes developing time to a fraction.",
+    "stargazers_count": 3700,
+    "language": "Kotlin"
+  },
+  {
+    "id": 97,
+    "full_name": "lisawray/groupie",
+    "description": "Groupie helps you display and manage complex RecyclerView layouts.",
+    "stargazers_count": 3600,
+    "language": "Kotlin"
+  },
+  {
+    "id": 98,
+    "full_name": "Kotlin/kotlinx-io",
+    "description": "Kotlin multiplatform I/O library.",
+    "stargazers_count": 740,
+    "language": "Kotlin"
+  },
+  {
+    "id": 99,
+    "full_name": "cashapp/contour",
+    "description": "Layouts with lambdas.",
+    "stargazers_count": 1500,
+    "language": "Kotlin"
+  },
+  {
+    "id": 100,
+    "full_name": "airbnb/mavericks",
+    "description": "Mavericks: Android on Autopilot.",
+    "stargazers_count": 5900,
+    "language": "Kotlin"
+  }
+]
