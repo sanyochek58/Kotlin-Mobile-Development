@@ -18,10 +18,11 @@ class ReportWorker(context: Context, params: WorkerParameters): CoroutineWorker(
 
         val moscow = prefs.getString("Москва", "нет данных")
         val london = prefs.getString("Лондон", "нет данных")
-        val newYork = prefs.getString("Нью-Йорк", "нет данных")
+        val newYork = prefs.getString("Нью_Йорк", "нет данных")
 
         val temps = listOf(moscow, london, newYork).mapNotNull { it?.substringBefore(" ")?.toIntOrNull() }
         val avg = if (temps.isNotEmpty()) temps.average().toInt() else 0
+        prefs.edit().putInt("avg_temp", avg).apply()
 
         showNotification("Отчёт готов! Средняя температура: $avg C")
         return Result.success(workDataOf("avg_temp" to avg))

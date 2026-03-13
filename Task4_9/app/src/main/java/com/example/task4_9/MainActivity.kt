@@ -1,6 +1,9 @@
 package com.example.task4_9
 
+import android.app.NotificationChannel
+import android.app.NotificationManager
 import android.content.Context
+import android.os.Build
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
@@ -44,6 +47,20 @@ class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
+
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+            val channel = NotificationChannel(
+                "weather_channel",
+                "Weather",
+                NotificationManager.IMPORTANCE_DEFAULT
+            )
+            getSystemService(NotificationManager::class.java)
+                .createNotificationChannel(channel)
+        }
+
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
+            requestPermissions(arrayOf(android.Manifest.permission.POST_NOTIFICATIONS), 0)
+        }
         setContent {
             WeatherScreen()
         }
@@ -82,7 +99,8 @@ fun WeatherScreen(){
             }
             infos.all{ it.state == WorkInfo.State.SUCCEEDED } -> {
                 isWorking = false
-                val temp = infos.last().outputData.getInt("avg_temp", 0)
+                val prefs = context.getSharedPreferences("weather", Context.MODE_PRIVATE)
+                val temp = prefs.getInt("avg_temp",0)
                 avgTemp = "$temp"
                 status = "Отчёт готов!"
             }
@@ -126,7 +144,7 @@ fun WeatherScreen(){
             Spacer(modifier = Modifier.height(16.dp))
 
             val prefs = context.getSharedPreferences("weather", Context.MODE_PRIVATE)
-            listOf("Москва", "Лондон", "Нью-Йорк").forEach { city ->
+            listOf("Москва", "Лондон", "Нью_Йорк").forEach { city ->
                 val data = prefs.getString(city, "нет данных")
                 Text(text = "$city: $data", fontSize = 16.sp)
             }
@@ -164,7 +182,7 @@ fun startWeatherWork(workManager: WorkManager, context: Context){
         .build()
 
     val newYork = OneTimeWorkRequestBuilder<CityWeatherWorker>()
-        .setInputData(workDataOf("city" to "Нью-Йорк"))
+        .setInputData(workDataOf("city" to "Нью_Йорк"))
         .addTag("weather_chain")
         .build()
 
